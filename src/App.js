@@ -40,7 +40,7 @@ function App() {
   };
 
   useEffect(() => {
-    fetchEmployees(); // Fetch employees when component mounts
+    fetchEmployees();
   }, []);
 
   return (
